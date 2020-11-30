@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin Watcher</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script_final.js" defer></script>
+  </head>
+  <body>
+    <!--<select name="" id="select">
+      <option value="bitcoin">Bitcoin</option>
+    </select>-->
+
+    <div class="container">
+      <img src="https://via.placeholder.com/50" id="logo" alt="" />
+      <div class="selections">
+        <select name="select" id="idSel"></select>
+        <select name="select" id="valSel"></select>
+      </div>
+      <div class="info">
+        <!--<h1 id="name">Name: Bitcoin</h1>-->
+        <div class="field">
+          <h2>Current price:</h2>
+          <h2 id="price">0 EUR</h2>
+        </div>
+        <div class="field">
+          <p>Hourly change:</p>
+          <p id="hChange">0</p>
+        </div>
+        <div class="field">
+          <p>Daily change:</p>
+          <p id="dChange">0</p>
+        </div>
+      </div>
+      <button id="call">Call API</button>
+    </div>
+  </body>
+</html>

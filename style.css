@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #1d2d50;
+}
+
+button,
+a,
+select,
+option {
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 30px;
+  max-width: 450px;
+  width: 100%;
+  background: #1b2a4b;
+  padding: 1rem 2rem;
+}
+
+#logo {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  background: #fcdab7;
+}
+
+button#call {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #fcdab7;
+  -webkit-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button#call.clicked {
+  background: rgba(252, 218, 183, 0.8);
+}
+
+.field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hChange.plus,
+#dChange.plus {
+  color: green;
+}
+
+#hChange.minus,
+#dChange.minus {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
