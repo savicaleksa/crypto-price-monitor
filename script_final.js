@@ -45,7 +45,7 @@ async function callApi() {
     },
   });
   let result = await response.json();
-  //console.log(result);
+  console.log(result);
   //changes
   logo.src = result.image.small;
   price.innerText = `${result.market_data.current_price[val]} ${String(
